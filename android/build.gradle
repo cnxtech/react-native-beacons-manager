@@ -35,6 +35,7 @@ repositories {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.annotation:annotation:1.1.0'
     implementation 'com.facebook.react:react-native:0.20.+'
     implementation 'org.altbeacon:android-beacon-library:2.13.1'
 }
